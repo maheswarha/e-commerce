@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# E-Commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Application Overview
+This is a fully functional eCommerce application which is built from start to end. Some of the key features of the app are:
+ - Users are able to navigate through the list of products the store provides and them to cart.
+ - User capability to change the number of units per product and corresponding subtotal amount will be calculated dynamically.
+ - During checkout process, users are allowed to input their shipping address.
+ - Shipping fee will be calculated based on user's shipping location and subsequently added to the subtotal amount.
+ - Order summary will be displayed before user makes the payment.
+ - Accepts real credit/debit details to make the payment.
+ - Order receipt/invoice will be sent to the user's e-mail post successful checkout.
+<br />
 
-## Available Scripts
+![User Interface](https://github.com/maheswarha/e-commerce/blob/master/E-Commerce%20User%20Interface.gif)
+<br />
+<br />
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Details
+ - The following project was build purely on React framework and it only involves front-end development
+ - The project didn't require back-end development or database because '[Commerce.js](https://commercejs.com/)' is used to design, build, and control the products listed, shipping methods, etc using the API(s) and dashboard provided. It also generates the order receipt/invoice to user and order instruction to the e-commerce owner/supplier.
+ - '[Stripe](https://stripe.com/)' has been used for the payment infrastructure (Credit/Debit Card). For testing purposes, user can use Stripe's default card number, '**4242 4242 4242 4242**'.
+ - The project has been deployed and hosted by Firebase.
+ - The live website can be viewed [HERE](https://e-commerce-c677a.web.app/).
